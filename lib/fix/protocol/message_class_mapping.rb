@@ -21,6 +21,7 @@ module Fix
         'V' => :market_data_request,
         'W' => :market_data_snapshot,
         'X' => :market_data_incremental_refresh,
+        'Y' => :market_data_request_reject,
         'j' => :business_message_reject
       }.freeze
 
