@@ -11,6 +11,7 @@ module Fix
           field :sending_time,   tag: 52,   required: true, type: :timestamp, default: proc { Time.now.utc }
 
           field :sender_sub_id,        tag: 50
+          field :target_comp_id,       tag: 56
           field :deliver_to_comp_id,   tag: 128
           field :on_behalf_of_comp_id, tag: 115
           field :on_behalf_of_sub_id,  tag: 116
